@@ -24,18 +24,41 @@ LifeBuffer is a mobile application built with React Native and Expo. It provides
 
 ```text
 LifeBuffer/
-â”œâ”€â”€ assets/
-â”œâ”€â”€ scripts/
-â”œâ”€â”€ src/
-â”‚   â”œâ”€â”€ app/
-â”‚   â”œâ”€â”€ components/
-â”‚   â”œâ”€â”€ constants/
-â”‚   â”œâ”€â”€ context/
-â”‚   â””â”€â”€ lib/
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ app.json
-â”œâ”€â”€ package.json
-â””â”€â”€ README.md
+│
+├── assets/
+│
+├── scripts/
+│
+├── src/
+│   ├── app/
+│   │   ├── _layout.jsx
+│   │   ├── index.jsx
+│   │   ├── login.jsx
+│   │   ├── add-task.jsx
+│   │   ├── analytics.jsx
+│   │   └── premium.jsx
+│   │
+│   ├── components/
+│   │   ├── RiskCard.jsx
+│   │   └── TaskCard.jsx
+│   │
+│   ├── constants/
+│   │   └── colors.js
+│   │
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   │
+│   └── lib/
+│       ├── subscriptions.js
+│       ├── supabase.js
+│       └── workload.js
+│
+├── .gitignore
+├── app.json
+├── metro.config.js
+├── package.json
+├── package-lock.json
+└── README.md
 ```
 
 ## Installation
